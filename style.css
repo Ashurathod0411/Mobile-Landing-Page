@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,800;1,700&display=swap');
+
+:root{
+    --main-color: #FCD34D;
+    --bg-dark: #2b2c2f;
+    --balck-100:#f7f7f7;
+    --black-000:#ffffff;
+}
+
+*{
+    margin:0;
+    outline: none!important;
+    line-height: 1.5;
+}
+
+.img{
+    max-width:100%;
+    vertical-align: middle;
+    display: top;
+}
+
+ul{
+    list-style: none;;
+}
+
+.navbar{
+    font-size: 20px;
+    background-color: var(--main-color);
+}
+
+.home{
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+.home-text h1{
+    font-size:40px;
+    font-weight: 700;
+    margin:6px 6px 30px;
+    padding: 1.5rem;
+}
+
+.home-img img{
+    padding-right:4rem;
+}
+
+
+.btn{
+    background-color: var(--main-color);
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    font-size: 16px;
+    margin-top: 30px;
+    box-shadow: var(--main-color);
+}
+
+
+
+
+.footer{
+    background-color: var(--main-color);
+    padding:50px 0;
+}
+
+
+.footer-col p{
+    text-align: center;
+    justify-content: center;
+    font-size:0.5rem;
+}
+
+.footer-col img{
+    padding-top: 1rem;
+    width: 150px;
+}
+
+.label-title{
+    margin-top:4rem;
+    margin-bottom: 4rem;
+}
+
+
+.Iphone-img{
+    height: 80%;
+    margin-top: 3rem;
+    max-width: 150px;
+    margin-bottom: 3rem;
+}
+
+.feature-item{
+    margin-top: 6rem;
+}
+
+
+.style-content{
+    padding-top:1rem ;
+}
+
+
+.follow-us{
+    background-color: var(--main-color);
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 2rem;
+    font-size: 100px;
+}
+
+.follow-style{
+    font-size: 41px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.footer-copyright{
+    background-color: var(--bg-dark);
+    color:#ffffff;
+}
